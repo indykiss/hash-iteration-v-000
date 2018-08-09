@@ -11,5 +11,6 @@ def select_winner(passengers)
   passengers.each do |value, key|
     if key = "suite_a" && value[0] == "A"
       return true
-  end    
+  end   
+end 
 end
